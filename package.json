@@ -1,0 +1,23 @@
+{
+  "name": "@elrondnetwork/elrond-pem",
+  "version": "1.0.0",
+  "description": "Small tool for generating mnemonics and ElrondNetwork compatible .pem files for validators",
+  "main": "index.js",
+  "bin": {
+    "elrond-pem": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/bls-hd-key": "^0.2.0",
+    "@elrondnetwork/erdjs": "^3.1.0",
+    "bip39": "^3.0.3",
+    "bn.js": "^5.2.0",
+    "chalk": "^4.1.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.0.0"
+  }
+}
