@@ -1,6 +1,6 @@
 {
   "name": "@elrondnetwork/elrond-pem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small tool for generating mnemonics and ElrondNetwork compatible .pem files for validators",
   "main": "index.js",
   "bin": {

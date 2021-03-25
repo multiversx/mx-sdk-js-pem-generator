@@ -40,6 +40,8 @@ const questions = [
 const generate = async (count, account = 0, index = 0) => {
   await blsInit();
 
+  index = parseInt(index, 10);
+  account = parseInt(account, 10);
   if ( !count ) {
     count = 1;
   }
