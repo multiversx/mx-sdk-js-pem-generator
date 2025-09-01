@@ -1,6 +1,9 @@
-# Elrond Pem Generator
+# Elrond Pem Generator [DEPRECATED]
 
 This is a small tool we wrote to assist validators in generating a bunch of pem files given a mnemonic. <br/>
+
+## NOTE
+For the same functionality, please see https://docs.multiversx.com/sdk-and-tools/overview
 
 ## How to use
 ### First option:
